@@ -63,6 +63,6 @@ public void setTurno(String turno) {
 	this.turno = turno;
 }
 public void imprimirAlumno() {
-	System.out.println(numControl);
+	System.out.println(numControl+"\t"+nombre+" "+ap+" "+am+"\t"+grupo+" "+carrera+" "+turno);
 }
 }
