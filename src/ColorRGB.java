@@ -11,6 +11,7 @@ import javax.swing.border.CompoundBorder;
 import javax.swing.border.BevelBorder;
 import javax.swing.event.ChangeListener;
 import javax.swing.event.ChangeEvent;
+import java.awt.Toolkit;
 
 public class ColorRGB {
 
@@ -60,6 +61,7 @@ private JLabel lblVVerde;
 	}
 	private void initialize() {
 		frmColorRgb = new JFrame();
+		frmColorRgb.setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\Alumno\\Pictures\\cecy.jpg"));
 		frmColorRgb.setTitle("Color RGB");
 		frmColorRgb.setBounds(100, 100, 558, 439);
 		frmColorRgb.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
